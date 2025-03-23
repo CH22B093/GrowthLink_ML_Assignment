@@ -5,12 +5,12 @@
 The main objective of this project is to build a machine learning model that can distinguish fraudulent transactions from legitimate ones.
 **XGBoost** model was used.
 Reasons:
--> **Handles Imbalanced Data well**: Fraudulent detection datasets usually are highly imbalanced. XGBoost can easily integrate with oversampling techniques like **SMOTE**, making it robust against class imbalance.
-->**High Predictive Power**: Can capture complex nonlinear patterns and interactions between features, which is common in fraudulent behaviour.
+- **Handles Imbalanced Data well**: Fraudulent detection datasets usually are highly imbalanced. XGBoost can easily integrate with oversampling techniques like **SMOTE**, making it robust against class imbalance.
+- **High Predictive Power**: Can capture complex nonlinear patterns and interactions between features, which is common in fraudulent behaviour.
 
 ## Objective
--> To develop a fraud detection system that **maximizes fraud detection** while **minimizing false positives**.
--> To extract meaningful patterns from transactional data and build a reliable classification model.
+- To develop a fraud detection system that **maximizes fraud detection** while **minimizing false positives**.
+- To extract meaningful patterns from transactional data and build a reliable classification model.
 
 ## Dataset
 Training and testing dataset were given separately.The dataset consisted of anonymized transactional data, including features such as:
@@ -20,9 +20,10 @@ Training and testing dataset were given separately.The dataset consisted of anon
 - Timestamp
 - Other transaction metadata
 
-> **Note:** The dataset is assumed to be imbalanced, as fraudulent transactions are rare compared to legitimate ones.
 The training dataset had 1048575 rows and 23 columns.
 Columns like first,last,street etc were disregarded since, they do not contribute to finding the fraudulent behaviour.
+> **Note:** The dataset is assumed to be imbalanced, as fraudulent transactions are rare compared to legitimate ones.
+
 
 ## Key Tasks
 
@@ -63,19 +64,24 @@ A high performance fraud detection model was obtained.
 - **Imbalanced-learn** (for handling imbalance)
 
 ## Results
-- **Confusion Matrix**:
+### Confusion Matrix
+  
   ![image](https://github.com/user-attachments/assets/172130b5-f6c3-4bbb-949c-2fdc52718d03)
 
-- **Precision-Recall curve**:
+### Precision-Recall curve
+  
   ![image](https://github.com/user-attachments/assets/27643bcb-f287-4093-bc67-04d06e4e777b)
 
-- **ROC Curve**:
+### ROC Curve
+  
   ![image](https://github.com/user-attachments/assets/3ec3c4b9-9050-46ca-9041-ad9103cb3a48)
 
-- **Feature Importance**:
-  ![image](https://github.com/user-attachments/assets/8cc55181-559b-4868-adff-c33fe2b10025)
+### Feature Importance
   
-  Features:
+  ![image](https://github.com/user-attachments/assets/abc2542f-e228-46c5-b528-18e0d6e4a446)
+
+  ### Features:
+  
   ![image](https://github.com/user-attachments/assets/601f9572-5457-4def-98bb-aea0907039c2)
 
 
