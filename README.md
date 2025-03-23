@@ -71,6 +71,11 @@ A high performance fraud detection model was obtained.
   
   ![image](https://github.com/user-attachments/assets/27643bcb-f287-4093-bc67-04d06e4e777b)
 
+### Classification Report
+
+  ![image](https://github.com/user-attachments/assets/94bb27c8-053c-463d-935d-9847d721ca1a)
+
+
 ### ROC Curve
   
   ![image](https://github.com/user-attachments/assets/3ec3c4b9-9050-46ca-9041-ad9103cb3a48)
