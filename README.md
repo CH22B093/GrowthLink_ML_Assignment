@@ -39,8 +39,7 @@ Columns like first,last,street etc were disregarded since, they do not contribut
    - Visualize key indicators such as transaction amounts, time of day, and merchant behavior
 
 3. **Modeling with XGBoost**  
-   - Train/test split and cross-validation
-   - Hyperparameter tuning (e.g., using GridSearchCV)
+   - Cross-validation
    - Evaluation using metrics like precision, recall, F1-score, ROC-AUC
 
 4. **Model Evaluation**  
