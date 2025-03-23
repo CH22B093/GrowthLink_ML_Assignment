@@ -28,23 +28,23 @@ Columns like first,last,street etc were disregarded since, they do not contribut
 ## Key Tasks
 
 1. **Data Preprocessing**  
-   - Handle missing values and duplicates
-   - Encode categorical variables (e.g., merchants, user IDs)
-   - Feature engineering (e.g., time-based features, aggregation metrics)
-   - Normalize/scale numerical features
-   - Address class imbalance using techniques like SMOTE or class weights
+   - Handle missing values and duplicates.
+   - Encode categorical variables (e.g., merchants, user IDs).
+   - Feature engineering (e.g., time-based features, aggregation metrics).
+   - Normalize/scale numerical features.
+   - Address class imbalance using techniques like SMOTE or class weights.
 
 2. **Exploratory Data Analysis (EDA)**  
-   - Analyze transaction patterns for legitimate vs. fraudulent transactions
-   - Visualize key indicators such as transaction amounts, time of day, and merchant behavior
+   - Analyze transaction patterns for legitimate vs. fraudulent transactions.
+   - Visualize key indicators such as transaction amounts, time of day, and merchant behavior.
 
 3. **Modeling with XGBoost**  
-   - Cross-validation
-   - Evaluation using metrics like precision, recall, F1-score, ROC-AUC
+   - Cross-validation.
+   - Evaluation using metrics like precision, recall, F1-score, ROC-AUC.
 
 4. **Model Evaluation**  
-   - Focus on reducing false positives while achieving high recall
-   - Analyze confusion matrix and feature importance
+   - Focus on reducing false positives while achieving high recall.
+   - Analyze confusion matrix and feature importance.
   
 ## Expected Outcome
 A high performance fraud detection model was obtained.
