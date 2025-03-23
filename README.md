@@ -88,7 +88,7 @@ A high performance fraud detection model was obtained.
   
   ![image](https://github.com/user-attachments/assets/601f9572-5457-4def-98bb-aea0907039c2)
 
-
+> Note: Uploaded both .ipynb and .py files to show what was the output with the code.
 
 
 
